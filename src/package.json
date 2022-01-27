@@ -1,6 +1,6 @@
 {
     "name": "@master/keyframes.css",
-    "description": "",
+    "description": "Simple and useful CSS keyframes with less than 1KB",
     "author": "Aoyue Design LTD.",
     "funding": "https://opencollective.com/master-style",
     "license": "MIT",
@@ -9,5 +9,20 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/master-style/keyframes.css.git"
-    }
+    },
+    "keywords": [
+        "animate",
+        "animation",
+        "css",
+        "effect",
+        "keyframes",
+        "fade",
+        "flash",
+        "heart",
+        "jump",
+        "pulse",
+        "rotate",
+        "shake",
+        "zoom"
+    ]
 }

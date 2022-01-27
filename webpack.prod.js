@@ -5,13 +5,15 @@ const webpack = require('webpack');
 const glob = require('globby');
 const CopyPlugin = require('copy-webpack-plugin');
 const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 const src = path.resolve('./src');
 const packagePath = path.join(src, 'package.json');
 const package = require(packagePath);
 const master = require('./master.json');
 const entryGlob = [
-    path.join(src, '**/index.scss')
+    path.join(src, '**/index.scss'),
+    path.join(src, '*.css'),
 ];
 
 module.exports = {
@@ -32,7 +34,8 @@ module.exports = {
     ],
     mode: 'production',
     optimization: {
-        minimize: true
+        minimize: true,
+        minimizer: [new CssMinimizerPlugin()]
     },
     module: {
         rules: [
