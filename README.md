@@ -3,7 +3,7 @@
     <img src="https://raw.githubusercontent.com/master-style/package/document/images/logo-and-text.svg" alt="logo" width="142">
 </p>
 <p align="center">
-    <b><!-- name --><!-- --></b>
+    <b><!-- name -->keyframes.css<!-- --></b>
 </p>
 <p align="center"><!-- package.description --><!-- --></p>
 <p align="center">
@@ -18,7 +18,7 @@
 
 # Install
 ```sh
-npm install {{ package.name }}
+npm install @master/keyframes.css
 ```
 ## CDN
 <!-- cdns.map((cdn) => `\n- [${cdn.name}](${cdn.href})`).join('') -->
@@ -26,5 +26,5 @@ npm install {{ package.name }}
 
 # Usage
 ```css
-@import '{{ package.name }}';
+@import '@master/keyframes.css';
 ```

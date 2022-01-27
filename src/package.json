@@ -1,0 +1,13 @@
+{
+    "name": "@master/keyframes.css",
+    "description": "",
+    "author": "Aoyue Design LTD.",
+    "funding": "https://opencollective.com/master-style",
+    "license": "MIT",
+    "main": "index.css",
+    "private": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/master-style/keyframes.css.git"
+    }
+}
