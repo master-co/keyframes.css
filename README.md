@@ -16,6 +16,7 @@
 # Feature
 - Less than **< 1 KB**
 - fade
+- ping
 - flash
 - heart
 - jump
