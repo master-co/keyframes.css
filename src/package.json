@@ -23,6 +23,7 @@
         "pulse",
         "rotate",
         "shake",
-        "zoom"
+        "zoom",
+        "float"
     ]
 }

@@ -24,6 +24,10 @@
 - rotate
 - shake
 - zoom
+- float
+
+# Documentation
+[Animation - Master Styles](https://docs.master.co/styles/animation)
 
 # Install
 ```sh
